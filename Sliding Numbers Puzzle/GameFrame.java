@@ -40,7 +40,7 @@ public class GameFrame extends JFrame implements ActionListener{
 		gamePanel.setBorder(b);
 		add(gamePanel);
 		
-		numOfMovesL.setText("Number Of Moves:");
+		numOfMovesL.setText("Number Of Moves: "+numberOfMoves);
 		numOfMovesL.setBounds(525, 450, 150, 30);
 		add(numOfMovesL);
 		
@@ -168,6 +168,8 @@ public class GameFrame extends JFrame implements ActionListener{
 			buttons.set(openPanelIndex, source);
 			buttons.set(clickedIndex, null);
 			openPanelIndex = clickedIndex;
+         ++numberOfMoves;
+         numOfMovesL.setText("Number Of Moves: "+numberOfMoves);
 			revalidate();
 			repaint();
 			if(new Board(getBoard()).isGoal())
