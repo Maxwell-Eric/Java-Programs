@@ -102,10 +102,8 @@ public class StartWindow extends JFrame implements ActionListener {
 		thread.start();
 	}
 	
-	
 	public static void main(String[] args){
 		
 		new StartWindow();
 	}
-
 }
