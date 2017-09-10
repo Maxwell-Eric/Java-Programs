@@ -6,7 +6,6 @@ import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-//import javax.swing.SwingUtilities;
 
 public class StartWindow extends JFrame implements ActionListener {
 	
