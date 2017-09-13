@@ -23,7 +23,7 @@ public class GameFrame extends JFrame implements ActionListener{
 	private List<JPanel> panels;
 	private JButton minMoves = new JButton("<html><p style=text-align:center>Click to Get Minimum Number of Moves for Current Board");
 	private JButton solveB = new JButton("Click to Solve");
-   private JLabel startBoardNumOfMovesL = new JLabel();
+        private JLabel startBoardNumOfMovesL = new JLabel();
 	private JLabel text = new JLabel();
 	private JLabel numOfMovesL = new JLabel();
 	private Runnable solvePuzzle;
@@ -31,7 +31,7 @@ public class GameFrame extends JFrame implements ActionListener{
 	private int size = edgeLength * edgeLength;
 	private int openPanelIndex;
 	private int numberOfMoves = 0;
-   private Solver s;
+        private Solver s;
 	
 	public GameFrame(){
 		super("Number Puzzle");
@@ -97,7 +97,7 @@ public class GameFrame extends JFrame implements ActionListener{
 								}
 							}
 						}
-                  playAgain();
+                  			playAgain();
 					} 
 				};
 				Thread thread = new Thread(solvePuzzle);
@@ -136,7 +136,7 @@ public class GameFrame extends JFrame implements ActionListener{
 	}
    
 	private void setBoard(){
-      do{
+       		do{
 			Collections.shuffle(buttons);
 			s = new Solver(new Board(getBoard()));
 		}
@@ -149,9 +149,9 @@ public class GameFrame extends JFrame implements ActionListener{
 				openPanelIndex = i;
 		}
       
-      startBoardNumOfMovesL.setText("<html>Minimum moves from starting board: "+s.moves());
-      repaint();
-   }
+      		startBoardNumOfMovesL.setText("<html>Minimum moves from starting board: "+s.moves());
+      		repaint();
+   	}
    
 	public int[][] getBoard(){
 		int [][] board = new int[edgeLength][edgeLength];
@@ -180,24 +180,24 @@ public class GameFrame extends JFrame implements ActionListener{
 			buttons.set(openPanelIndex, source);
 			buttons.set(clickedIndex, null);
 			openPanelIndex = clickedIndex;
-         ++numberOfMoves;
-         numOfMovesL.setText("Number Of Moves: "+numberOfMoves);
+         		++numberOfMoves;
+         		numOfMovesL.setText("Number Of Moves: "+numberOfMoves);
 			revalidate();
 			repaint();
 			if(new Board(getBoard()).isGoal()){
 				JOptionPane.showMessageDialog(this, "You Solved the Puzzle in "+numberOfMoves+" Moves!!", "Numbers Puzzle", JOptionPane.INFORMATION_MESSAGE);
-            playAgain();
-         }
+            			playAgain();
+         		}
 		}
 	}
    
-   private void playAgain(){
-      int response = JOptionPane.showConfirmDialog(this, "Would you like to play again?", "Numbers Puzzle",JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
-      if(response == JOptionPane.YES_OPTION)
-         setBoard();
-      else
-         System.exit(0);
-   }
+   	private void playAgain(){
+      		int response = JOptionPane.showConfirmDialog(this, "Would you like to play again?", "Numbers Puzzle",JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE);
+      		if(response == JOptionPane.YES_OPTION)
+         		setBoard();
+      		else
+         		System.exit(0);
+   	}
 
 	public static void main(String[] args){
 		GameFrame gf = new GameFrame();
