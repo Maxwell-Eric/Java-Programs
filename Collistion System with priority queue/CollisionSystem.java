@@ -1,11 +1,6 @@
-import javax.swing.JFrame;
-
 import edu.princeton.cs.algs4.MinPQ;
-import edu.princeton.cs.algs4.StdDraw;
 
 public class CollisionSystem{
-	
-	
 	
 	private MinPQ<Event> pq;
 	private double t = 0.0;

@@ -11,10 +11,4 @@ public class BBFrame extends JFrame{
 		getContentPane().setBackground(Color.CYAN);
 		setVisible(true);
 	}
-
-	public static void main(String[] args){
-		
-		BBFrame bbf = new BBFrame(500);
-		
-	}
 }

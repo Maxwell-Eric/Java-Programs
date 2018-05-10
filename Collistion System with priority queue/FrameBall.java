@@ -1,21 +1,16 @@
 import java.awt.Color;
-
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-
 import javax.swing.JComponent;
-//import javax.swing.JPanel;
-
-//import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdRandom;
-//import edu.princeton.cs.algs4.*;
+
 public class FrameBall extends JComponent {
 
 	private double sx, sy;
 	private double vx, vy;
-	private int mass;// = 5;
+	private int mass;
 	public int count = 0;
-	private int radius;// = 10;
+	private int radius;
 	private Color color = Color.BLACK;
 	
 	public FrameBall(int radius){
@@ -113,7 +108,6 @@ public class FrameBall extends JComponent {
 		double J = 2*this.mass*fb.mass*dvds/((this.mass + fb.mass)*dist);
 		
 		double Jx = J*dx/dist, Jy = J*dy/dist;
-		//this.vx += (Jx/this.mass)*.5; this.vy += (Jy/this.mass)*.5;
 		this.vx += Jx/this.mass; this.vy += Jy/this.mass;
 		fb.vx -= (Jx/fb.mass); fb.vy -= (Jy/fb.mass);
 		this.count++;
