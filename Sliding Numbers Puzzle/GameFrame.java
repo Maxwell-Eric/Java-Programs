@@ -43,14 +43,14 @@ public class GameFrame extends JFrame implements ActionListener{
 		add(gamePanel);
 		
       
-		numOfMovesL.setText("Number Of Moves: "+numberOfMoves);
-		numOfMovesL.setBounds(525, 40, 150, 30);
+		numOfMovesL.setText("Number Of Moves Made: "+numberOfMoves);
+		numOfMovesL.setBounds(525, 100, 150, 30);
 		add(numOfMovesL);
 		
 		text.setBounds(525, 200, 150, 30);
 		add(text);
 		
-		minMoves.setBounds(525, 100, 150, 100);
+		minMoves.setBounds(525, 275, 150, 100);
 		minMoves.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e){
@@ -181,7 +181,7 @@ public class GameFrame extends JFrame implements ActionListener{
 			buttons.set(clickedIndex, null);
 			openPanelIndex = clickedIndex;
          		++numberOfMoves;
-         		numOfMovesL.setText("Number Of Moves: "+numberOfMoves);
+         		numOfMovesL.setText("Number Of Moves Made: "+numberOfMoves);
 			revalidate();
 			repaint();
 			if(new Board(getBoard()).isGoal()){
@@ -200,6 +200,6 @@ public class GameFrame extends JFrame implements ActionListener{
    	}
 
 	public static void main(String[] args){
-		GameFrame gf = new GameFrame();
+		new GameFrame();
 	}
 }
