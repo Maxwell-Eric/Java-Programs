@@ -1,9 +1,2 @@
-# Hello-World
-just another repository
+# Java Programs
 
-My name is Eric Maxwell. 
-Trying again.
-Once more hopefully.
-
-
-This is my first branch thing!
