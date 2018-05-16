@@ -21,13 +21,13 @@ import java.awt.event.ActionListener;
 
 public class PercolationStats extends JFrame {
 	
-	private double[] results;
-	private int trials;
+   private double[] results;
+   private int trials;
    private int sites;
    private int n;
    private JPanel panel = new JPanel();
 	
-	public PercolationStats(){
+   public PercolationStats(){
    
       super("Percolation Statistics");
       
