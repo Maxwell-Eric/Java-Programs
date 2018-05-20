@@ -9,19 +9,19 @@ import javax.swing.JLabel;
 
 public class StartWindow extends JFrame implements ActionListener {
 	
-	JComboBox<Integer> numParts;
-	JLabel numPartsLabel;
-	JComboBox<Integer> partRadius;
-	JLabel partRadiusLabel;
-	JComboBox<Integer> sz;
-	JLabel szLabel;
-	JButton startB;
-	Runnable doCollisions;
+	private JComboBox<Integer> numParts;
+	private JLabel numPartsLabel;
+	private JComboBox<Integer> partRadius;
+	private JLabel partRadiusLabel;
+	private JComboBox<Integer> sz;
+	private JLabel szLabel;
+	private JButton startB;
+	private Runnable doCollisions;
 	
-	boolean buttonClicked = false;
-	int numberOfParts;
-	int radius;
-	int side;
+	private boolean buttonClicked = false;
+	private int numberOfParts;
+	private int radius;
+	private int side;
 	
 	public StartWindow(){
 		super("Collision System");
