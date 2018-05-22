@@ -3,4 +3,4 @@
 
 There are two programs contained in this project.
   - The first program opens a blank window. The user clicks on the window to add a point to that spot. The graph will add blue or red line depending on where in the tree the point is added. The point's location in the balanced binary tree can be determined by where the line starts and stops.
-    - 
+   
