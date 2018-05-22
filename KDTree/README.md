@@ -1,2 +1,2 @@
-## This project is from Princeton's Algorithms Part I class at coursera.com.
+## This project is associated with Princeton's Algorithms Part I class from coursera.
 ## It creates a kdTree with points.
