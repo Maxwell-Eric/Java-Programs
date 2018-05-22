@@ -14,3 +14,5 @@ The puzzle will tell you the minimum number of moves to solve the puzzle to begi
 You may request the minimum number of moves to sovle from the current board by clicking the button.
 
 The puzzle will solve itself in the minimum number of moves when the solve button is clicked.
+
+A jar file is included which will run the game.
