@@ -16,3 +16,4 @@ Once the first goal node(all areas clean) is found, the following information is
 - The vacuum location at each node
 - Which action was taken to get to the node from its parent
 - The total number of actions
+- The time it took for the program to find the first goal node
