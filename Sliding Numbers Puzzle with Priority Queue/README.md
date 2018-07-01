@@ -18,3 +18,5 @@ You may request the minimum number of moves to sovle from the current board by c
 The puzzle will solve itself in the minimum number of moves when the solve button is clicked.
 
 A jar file is included which will run the game.
+
+![number-puzzle-6_3_2018-11_35_12-pm](https://user-images.githubusercontent.com/24630618/42130267-f409a00e-7c9c-11e8-81c8-54d19353ddd1.gif)
