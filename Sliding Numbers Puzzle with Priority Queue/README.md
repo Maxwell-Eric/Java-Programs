@@ -19,4 +19,5 @@ The puzzle will solve itself in the minimum number of moves when the solve butto
 
 A jar file is included which will run the game.
 
-![number-puzzle-6_3_2018-11_35_12-pm](https://user-images.githubusercontent.com/24630618/42130267-f409a00e-7c9c-11e8-81c8-54d19353ddd1.gif)
+
+![screencapture_7-1-2018-11 05 35-am](https://user-images.githubusercontent.com/24630618/42136800-2fd1bec8-7d1f-11e8-8d9a-298d890dedb3.gif)
