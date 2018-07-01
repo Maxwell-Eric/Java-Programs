@@ -12,3 +12,5 @@
  ![standard draw 6_30_2018 8_56_59 pm](https://user-images.githubusercontent.com/24630618/42130663-7209ac8c-7ca8-11e8-94fd-4aa6aad438df.png)
  
  - The second program imports points from text files. A GUI was created and a list of files were added to a JComboBox for selection. When the start button is pressed, the file path and name are passed to the KdTree class. The list of points in the text file are added to a KdTree and a window is displayed that shows the points with the blue and red lines. The KDTreeGUI.java file was created as a front end GUI for the user and made into a jar file. Although the jar file works, when it is added to github, then downloaded, the program cannot find the text files. The program can be executed by downloading the repository and running the KDTreeGUI.java file with the kdtree-testing folder in the appropriate location. The jar file can also be supplied by another method upon request (such as email).
+
+![standard-draw-6_30_2018-9_01_59-pm](https://user-images.githubusercontent.com/24630618/42130697-50bc0736-7ca9-11e8-909f-890de0c160ce.gif)
