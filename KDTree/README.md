@@ -14,6 +14,6 @@
  
 <br><br><br>
  
- - The second program opens a blank window. The user clicks on the window to add a point to that spot. The graph will add blue or red line depending on where in the tree the point is added. The point's location in the balanced binary tree can be determined by where the line starts and stops. There is jar file included to execute this program named KDTree_Interactive.jar.
+ - The second program opens a blank window. The user clicks on the window to add a point to that spot. The graph will add blue or red line depending on the depth of the point in the tree. The point's location in the balanced binary tree can be determined by where the line starts and stops. 
 
 ![standard-draw-6_30_2018-9_01_59-pm](https://user-images.githubusercontent.com/24630618/42130697-50bc0736-7ca9-11e8-909f-890de0c160ce.gif)
