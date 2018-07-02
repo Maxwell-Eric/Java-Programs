@@ -1,5 +1,9 @@
 ## This project is associated with Princeton's Algorithms Part I class from coursera.
-### It creates a kdTree data structure with points, which are shown on a graph. When a point is added to the kdTree data structure, a verticle blue or horizontal red line is created through the point on the graph. The colored line will stop at the line which contains the parent point, or any point higher in the binary tree (both of which will be the other color of the line containing the new point). The root node's line will be a blue line which extends across the entire window.  A jar file was created and file can be supplied upon request.
+- Creates a kdTree data structure with points, which are shown on a graph. 
+- When a point is added to the kdTree data structure, a verticle blue or horizontal red line is created through the point on the graph.
+- The colored line will stop at the line which contains the parent point, or any point higher in the binary tree (both of which will be the other color of the line containing the new point). 
+- The root node's line will be a blue line which extends across the entire window.  
+- A jar file was created and can be supplied upon request.
 
 
 
