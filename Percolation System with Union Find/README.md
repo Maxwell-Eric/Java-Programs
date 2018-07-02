@@ -1,7 +1,8 @@
 ## This project is associated with Princetons Algorithms Part I from coursera.
-## This project creates a square system which can percolate.
-## The system percolates when there is a path from the top of the system to the bottom.
-## Sites can be opened and connected to adjacent open sites with a union find data structure.
+- This project creates a square system which can percolate.
+- Sites can be opened and connected to adjacent open sites with a union find data structure.
+- The system percolates when there is a path from the top of the system to the bottom.
+
 
 There are two executable programs in this project. 
   - The first project calculates the statistics to cause a system to percolate. The user inputs the number of sites on each side and the number of trials. The mean percentage of sites needed to be removed to cause a system to percolate is calculated. The standard deviation and the confidence interval are also calculated and included. There is a jar file for this program call Percolation_Stats.jar.
