@@ -4,7 +4,7 @@
 - The system percolates when there is a path from the top of the system to the bottom.
 
 
-There are two executable programs in this project. 
+### There are two executable programs in this project. 
   - The first program displays a system selected from a list of text files. Sites are removed based on the input file selected. The system shows sites connected to the top layer in blue. If there is a path from the top to the bottom, the system 'percolates'.
  
 ![2018-07-02_14-09-46](https://user-images.githubusercontent.com/24630618/42184411-a95b03b0-7e02-11e8-8f76-cd0c357f902d.gif)
